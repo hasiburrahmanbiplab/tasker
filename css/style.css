@@ -65,7 +65,7 @@ img{
 .main-navbar .navbar-toggler{
     background: rgba(128, 128, 128, 0.459);
     border: 1px solid transparent;
-    padding: 3px;
+    padding: 1px;
 }
 .main-navbar .navbar-toggler:focus{
     box-shadow: none;
@@ -591,7 +591,7 @@ img{
 /* subscribe part End */
 /* footer part start */
 #footer{
-    padding: 60px 0 40px;
+    padding-top: 60px;
 }
 .footer-grid{
     display: grid;
@@ -681,10 +681,13 @@ img{
 .copyright{
     width: 100%;
     padding: 30px 0;
+    background: var(--secondary);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 30px;
+    gap: 10px;
 }
 .copyright p{
     font-size: 14px;
@@ -692,6 +695,14 @@ img{
     font-weight: 400;
     color: var(--secondary);
     margin-bottom: 0;
+}
+.copyright a{
+    font-size:14px;
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+.copyright a:hover{
+    color:yellow !important;
 }
 /* footer part End */
 
